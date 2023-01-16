@@ -1,6 +1,9 @@
 <?php
 
 function createMyAccount() {
+
+  $ip = "123.123.11.12";
+
   $email = $_GET['email'];
   $name = $_GET['name'];
   $password = $_GET['password'];
