@@ -3,12 +3,14 @@ on:
   push:
     branches:
       - main
+      - stage
       - develop
       - feature*
       - hotfix*
   pull_request:
     branches:
       - main
+      - stage
       - develop
       - feature*
       - hotfix*
